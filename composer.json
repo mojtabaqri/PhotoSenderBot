@@ -1,0 +1,11 @@
+{
+
+
+
+
+    "require": {
+        "irazasyed/telegram-bot-sdk": "^3.13",
+        "intervention/image": "^2.5",
+        "eskandari/persianrender": "^0.1.0"
+    }
+}
