@@ -73,7 +73,7 @@ $image->text($characters[2].renderText(" ایران").$characters[1].renderText(
 
 
 // 4th text 
-$image->text($data['dsmart'], 440, 220, function($font) {
+$image->text(renderText($data['dsmart']), 440, 220, function($font) {
     $font->file('IRANSansWeb(FaNum).ttf');
     $font->size(26);
     $font->color('#ff4242');
@@ -97,7 +97,7 @@ $image->save('new.jpg');
 
 //------------------------------------------------------------------------
 $telegram = new Api('6479029477:AAFFAmZrEpsgJHic785dogmHIsQ4VgknqIE');
-$caption="✅ مقصد :".$data['dest']."\n"." 🚛نام راننده : ".$data['dname']."\n"." ✅ شماره پلاک :".$data['dpluck']."\n"
+$caption="✈️ مقصد :".$data['dest']."\n"." 🚛نام راننده : ".$data['dname']."\n"." ✅ شماره پلاک :".$data['dpluck']."\n"
 ." 🏦 شرکت :".$data['dsmart']."\n"." 👁‍🗨 کد ملی  : ".$data['dnational'] ;
 $params = [
           'chat_id'=> '-1001714934522',
