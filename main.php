@@ -3,7 +3,7 @@ require __DIR__.'/vendor/autoload.php';
 use Telegram\Bot\Api;
 use Telegram\Bot\FileUpload\InputFile;
 use Intervention\Image\ImageManagerStatic as Image;
-
+require ('Eita.php');
 
 function renderText($txt)
 {
@@ -36,7 +36,6 @@ $data=[
     ];
     
      $characters = preg_split("/ع|ایران/", $data['dpluck']);
-     
  // بارگذاری تصویر
 $image = Image::make('image.jpg');
 
@@ -104,7 +103,16 @@ $params = [
           'photo'=> new InputFile("new.jpg"),
           'caption'=> $caption
          ];
+         
 $response = $telegram->sendPhoto($params);
+$eita=new Eita("bot193441:582790a7-a51d-4543-a673-81d1dddebfc4");
+$eitaParams=[
+    'file'=> new \CurlFile("new.jpg"),
+    'chat_id'=> '9353793',
+    'caption'=>$caption,
+
+];
+$eitaRes=$eita->sendPhoto($eitaParams);
 //------------------------------------------------------------------------
 
 
