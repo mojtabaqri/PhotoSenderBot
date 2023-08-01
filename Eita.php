@@ -20,7 +20,7 @@ public function sendPhoto($param){
          'chat_id' => $param['chat_id'],
          'title' => "ArambarPkuck",
          'caption' => $param['caption'],
-         'date' => time()+2, 
+         'date' => time()+1, 
      ));
  curl_setopt($request, CURLOPT_RETURNTRANSFER, true);
  echo curl_exec($request);
