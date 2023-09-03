@@ -17,7 +17,7 @@ function renderText($txt)
     return $persian_text;
 }
 
-$json = '[[["یزد"]],[[4539540610]],[["عابدین منصوری "]],[["18ع883ایران36"]],[[3559678]]]';
+$json = '[[["ابادان"]],[[5479894080]],[["امیرحمزه مشایخ"]],[["49ع462ایران73"]],[["شمس+جواهر"]],[[27]]]';
 $array = json_decode($json, true);
 $info = array_merge(...$array);
 
@@ -37,18 +37,18 @@ $image = Image::make('image.jpg');
 
 
 // first text
-$image->text(renderText($data['dest']), 480, 15, function($font) {
+$image->text(renderText($data['dest']), 800, 40, function($font) {
     $font->file('IRANSansWeb.ttf');
-    $font->size(26);
+    $font->size(35);
     $font->color('#ff4242');
     $font->align('center');
     $font->valign('top');
 });
 
 // 2th text 
-$image->text(renderText($data['dname']), 420, 80, function($font) {
+$image->text(renderText($data['dname']), 735, 120, function($font) {
     $font->file('IRANSansWeb.ttf');
-    $font->size(26);
+    $font->size(35);
     $font->color('#ff4242');
     $font->align('center');
     $font->valign('top');
@@ -57,9 +57,9 @@ $image->text(renderText($data['dname']), 420, 80, function($font) {
 
 
 // 3th text 
-$image->text($characters[2].renderText(" ایران").$characters[1].renderText("ع").$characters[0], 420, 150, function($font) {
+$image->text($characters[2].renderText(" ایران").$characters[1].renderText("ع").$characters[0], 735, 215, function($font) {
     $font->file('IRANSansWeb(FaNum).ttf');
-    $font->size(26);
+    $font->size(35);
     $font->color('#ff4242');
     $font->align('center');
     $font->valign('top');
@@ -68,9 +68,9 @@ $image->text($characters[2].renderText(" ایران").$characters[1].renderText(
 
 
 // 4th text 
-$image->text($data['dsmart'], 440, 220, function($font) {
+$image->text($data['dsmart'], 710, 300, function($font) {
     $font->file('IRANSansWeb(FaNum).ttf');
-    $font->size(26);
+    $font->size(35);
     $font->color('#ff4242');
     $font->align('center');
     $font->valign('top');
@@ -79,14 +79,20 @@ $image->text($data['dsmart'], 440, 220, function($font) {
 
 
 // 4th text 
-$image->text(($data['dnational']), 480, 290, function($font) {
+$image->text(($data['dnational']), 730, 400, function($font) {
     $font->file('IRANSansWeb(FaNum).ttf');
-    $font->size(26);
+    $font->size(35);
     $font->color('#ff4242');
     $font->align('center');
     $font->valign('top');
 });
-
+$image->text(("31000"), 810, 480, function($font) {
+    $font->file('IRANSansWeb(FaNum).ttf');
+    $font->size(35);
+    $font->color('#ff4242');
+    $font->align('center');
+    $font->valign('top');
+});
 // ذخیره تصویر در مسیر جدید
 $image->save('new.jpg');
 

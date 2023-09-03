@@ -39,16 +39,17 @@ $data=[
     'dname'=>$info[2][0],
     'dpluck'=>$info[3][0],
     'dsmart'=>$info[4][0],
+    'dtonaj'=>$info[5][0],
     ];
     
      $characters = preg_split("/ع|ایران/", $data['dpluck']);
  // بارگذاری تصویر
-$image = Image::make('image.jpg');
+$image = Image::make('/home/arambaar/public_html/image.jpg');
 
 
 // first text
 $image->text(renderText($data['dest']), 480, 15, function($font) {
-    $font->file('IRANSansWeb.ttf');
+    $font->file('/home/arambaar/public_html/IRANSansWeb.ttf');
     $font->size(26);
     $font->color('#ff4242');
     $font->align('center');
@@ -57,7 +58,7 @@ $image->text(renderText($data['dest']), 480, 15, function($font) {
 
 // 2th text 
 $image->text(renderText($data['dname']), 420, 80, function($font) {
-    $font->file('IRANSansWeb.ttf');
+    $font->file('/home/arambaar/public_html/IRANSansWeb.ttf');
     $font->size(26);
     $font->color('#ff4242');
     $font->align('center');
@@ -68,7 +69,7 @@ $image->text(renderText($data['dname']), 420, 80, function($font) {
 
 // 3th text 
 $image->text($characters[2].renderText(" ایران").$characters[1].renderText("ع").$characters[0], 420, 150, function($font) {
-    $font->file('IRANSansWeb(FaNum).ttf');
+    $font->file('/home/arambaar/public_html/IRANSansWeb(FaNum).ttf');
     $font->size(26);
     $font->color('#ff4242');
     $font->align('center');
@@ -79,7 +80,7 @@ $image->text($characters[2].renderText(" ایران").$characters[1].renderText(
 
 // 4th text 
 $image->text(renderText($data['dsmart']), 440, 220, function($font) {
-    $font->file('IRANSansWeb(FaNum).ttf');
+    $font->file('/home/arambaar/public_html/IRANSansWeb(FaNum).ttf');
     $font->size(26);
     $font->color('#ff4242');
     $font->align('center');
@@ -90,7 +91,18 @@ $image->text(renderText($data['dsmart']), 440, 220, function($font) {
 
 // 4th text 
 $image->text(($data['dnational']), 480, 290, function($font) {
-    $font->file('IRANSansWeb(FaNum).ttf');
+    $font->file('/home/arambaar/public_html/IRANSansWeb(FaNum).ttf');
+    $font->size(26);
+    $font->color('#ff4242');
+    $font->align('center');
+    $font->valign('top');
+});
+
+
+
+//tonaj 
+$image->text(($data['dtonaj']), 480, 300, function($font) {
+    $font->file('/home/arambaar/public_html/IRANSansWeb(FaNum).ttf');
     $font->size(26);
     $font->color('#ff4242');
     $font->align('center');
@@ -102,7 +114,7 @@ $image->save('new.jpg');
 
 //------------------------------------------------------------------------
 $telegram = new Api('6479029477:AAFFAmZrEpsgJHic785dogmHIsQ4VgknqIE');
-$caption="✈️ مقصد :".$data['dest']."\n"." 🚛نام راننده : ".$data['dname']."\n"." ✅ شماره پلاک :".$data['dpluck']."\n"
+$caption="✈️ مقصد :".$data['dest']."\n"."⏲ تناژ :".$data['dtonaj']."\n"." 🚛نام راننده : ".$data['dname']."\n"." ✅ شماره پلاک :".$data['dpluck']."\n"
 ." 🏦 شرکت :".$data['dsmart']."\n"." 👁‍🗨 کد ملی  : ".$data['dnational'] ."\n"."⏰زمان:".$time."\n";
 $params = [
           'chat_id'=> '-1001714934522',
@@ -124,7 +136,7 @@ $eitaRes=$eita->sendPhoto($eitaParams);
 try{  
     $message = "اعلام پلاک جدید : \n".$caption;
     $lineNumber = 3000859975; 
-    $receptor = "09134576502";
+    $receptor = "09133506955";
     $api = new \Ghasedak\GhasedakApi('24e1baaec4e55a766478d8131a1bd5400f97d7eb03cd95954eb1ec177cdec853');
     $api->SendSimple($receptor,$message,$lineNumber);  
    }
