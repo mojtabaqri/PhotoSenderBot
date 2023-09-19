@@ -1,0 +1,7 @@
+[10-Sep-2023 09:35:26 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/hook.php on line 61
+[10-Sep-2023 09:35:26 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/hook.php on line 61
+[10-Sep-2023 09:37:45 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/hook.php on line 61
+[10-Sep-2023 09:38:44 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/hook.php on line 61
+[10-Sep-2023 09:53:49 Asia/Tehran] PHP Warning:  Undefined variable $data in /home/arambaar/public_html/hook.php on line 25
+[10-Sep-2023 09:53:59 Asia/Tehran] PHP Warning:  Undefined variable $data in /home/arambaar/public_html/hook.php on line 25
+[10-Sep-2023 06:35:13 UTC] PHP Parse error:  syntax error, unexpected variable "$data" in /home/arambaar/public_html/hook.php on line 32

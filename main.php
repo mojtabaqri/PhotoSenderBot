@@ -48,19 +48,19 @@ $image = Image::make('/home/arambaar/public_html/image.jpg');
 
 
 // first text
-$image->text(renderText($data['dest']), 480, 15, function($font) {
+$image->text(renderText($data['dest']), 800, 40, function($font) {
     $font->file('/home/arambaar/public_html/IRANSansWeb.ttf');
-    $font->size(26);
-    $font->color('#ff4242');
+    $font->size(35);
+    $font->color('#30336b');
     $font->align('center');
     $font->valign('top');
 });
 
 // 2th text 
-$image->text(renderText($data['dname']), 420, 80, function($font) {
+$image->text(renderText($data['dname']), 735, 120, function($font) {
     $font->file('/home/arambaar/public_html/IRANSansWeb.ttf');
-    $font->size(26);
-    $font->color('#ff4242');
+    $font->size(35);
+    $font->color('#30336b');
     $font->align('center');
     $font->valign('top');
 });
@@ -68,10 +68,10 @@ $image->text(renderText($data['dname']), 420, 80, function($font) {
 
 
 // 3th text 
-$image->text($characters[2].renderText(" ایران").$characters[1].renderText("ع").$characters[0], 420, 150, function($font) {
+$image->text($characters[2].renderText(" ایران").$characters[1].renderText("ع").$characters[0], 735, 215, function($font) {
     $font->file('/home/arambaar/public_html/IRANSansWeb(FaNum).ttf');
-    $font->size(26);
-    $font->color('#ff4242');
+    $font->size(35);
+    $font->color('#30336b');
     $font->align('center');
     $font->valign('top');
 });
@@ -79,10 +79,10 @@ $image->text($characters[2].renderText(" ایران").$characters[1].renderText(
 
 
 // 4th text 
-$image->text(renderText($data['dsmart']), 440, 220, function($font) {
+$image->text(renderText($data['dsmart']), 710, 300, function($font) {
     $font->file('/home/arambaar/public_html/IRANSansWeb(FaNum).ttf');
-    $font->size(26);
-    $font->color('#ff4242');
+    $font->size(35);
+    $font->color('#30336b');
     $font->align('center');
     $font->valign('top');
 });
@@ -90,10 +90,10 @@ $image->text(renderText($data['dsmart']), 440, 220, function($font) {
 
 
 // 4th text 
-$image->text(($data['dnational']), 480, 290, function($font) {
+$image->text(($data['dnational']), 730, 400, function($font) {
     $font->file('/home/arambaar/public_html/IRANSansWeb(FaNum).ttf');
-    $font->size(26);
-    $font->color('#ff4242');
+    $font->size(35);
+    $font->color('#30336b');
     $font->align('center');
     $font->valign('top');
 });
@@ -101,10 +101,10 @@ $image->text(($data['dnational']), 480, 290, function($font) {
 
 
 //tonaj 
-$image->text(($data['dtonaj']), 480, 300, function($font) {
+$image->text(($data['dtonaj']), 810, 480, function($font) {
     $font->file('/home/arambaar/public_html/IRANSansWeb(FaNum).ttf');
-    $font->size(26);
-    $font->color('#ff4242');
+    $font->size(35);
+    $font->color('#30336b');
     $font->align('center');
     $font->valign('top');
 });
