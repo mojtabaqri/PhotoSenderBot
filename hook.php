@@ -1,3 +1,4 @@
+
 <?php 
 date_default_timezone_set("Asia/Tehran");
 require __DIR__.'/vendor/autoload.php';
@@ -38,6 +39,7 @@ $data=[
     'dsmart'=>$input[12],//هوشمند ماشین 
     'company'=>$input[13],//نام شرکت 
     'sahebbarphone'=>$input[18],//شماره صاحب بار 
+    'carTracker'=>$input[20],//ماشین گیر
     'companyphone'=>$input[25]//شماره هماهنگی شرکت 
 
     ];
@@ -114,7 +116,7 @@ $image->save('new.jpg');
 //------------------------------------------------------------------------
 $telegram = new Api('6479029477:AAFFAmZrEpsgJHic785dogmHIsQ4VgknqIE');
 $caption="✈️ مقصد :".$data['dest']."\n"."⏲ تناژ :".$data['dtonaj']."\n"." 🚛نام راننده : ".$data['dname']."\n"." ✅ شماره پلاک :".$data['dpluck']."\n"
-." 🏦 هوشمند :".$data['dsmart']."\n"." 👁‍🗨 کد ملی  : ".$data['dnational'] ."\n"."⏰زمان:".$time."\n";
+." 🏦 هوشمند :".$data['dsmart']."\n"." 👁‍🗨 کد ملی  : ".$data['dnational'] ."\n"."👤ماشین گیر:".$data['carTracker']."\n"."⏰زمان:".$time."\n";
 $params = [
           'chat_id'=> '-1001714934522',
           'photo'=> new InputFile("new.jpg"),
@@ -145,5 +147,4 @@ try{
    catch(\Ghasedak\Exceptions\HttpException $e){  
     echo $e->errorMessage();  
    }  
-
 
