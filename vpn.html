@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Copy to Clipboard</title>
+  <style>
+    body {
+      background-color: #fff;
+      color: #000;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .text-input {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .copy-button {
+      padding: 10px 20px;
+      background-color: #dc3545;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <input type="text" id="text-input" class="text-input" value="https://www.venusub.cloud/sub/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJWUzk5NyIsImFjY2VzcyI6InN1YnNjcmlwdGlvbiIsImlhdCI6MTY5ODA0NjM1NH0.eXwy6xa6yeUptJ10BOZWz28ustoD2NWjYdpgruP_Ffk">
+    <button id="copy-button" class="copy-button" onclick="copyToClipboard()">کپی به کلیپبورد</button>
+  </div>
+
+  <script>
+    function copyToClipboard() {
+      var textInput = document.getElementById("text-input");
+      textInput.select();
+      textInput.setSelectionRange(0, 99999);
+      document.execCommand("copy");
+      alert("متن با موفقیت کپی شد: " + textInput.value);
+    }
+  </script>
+</body>
+</html>

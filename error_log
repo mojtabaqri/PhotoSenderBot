@@ -1,33 +1,108 @@
-[20-Sep-2023 12:35:10 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/hook.php on line 70
-[20-Sep-2023 12:35:10 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/hook.php on line 70
-[29-Sep-2023 20:07:58 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/cancle.php on line 9
-[29-Sep-2023 20:07:58 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/cancle.php on line 10
-[29-Sep-2023 20:07:58 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/cancle.php on line 11
-[29-Sep-2023 20:07:58 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/cancle.php on line 12
-[29-Sep-2023 20:07:58 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/cancle.php on line 13
-[29-Sep-2023 20:07:58 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/cancle.php on line 14
-[29-Sep-2023 20:07:58 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/cancle.php on line 15
-[29-Sep-2023 20:07:58 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/cancle.php on line 17
-[01-Oct-2023 11:07:24 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/hook.php on line 70
-[01-Oct-2023 11:07:24 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/hook.php on line 70
-[01-Oct-2023 11:07:54 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/hook.php on line 70
-[01-Oct-2023 11:07:54 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/hook.php on line 70
-[03-Oct-2023 17:16:28 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/hook.php on line 70
-[03-Oct-2023 17:16:28 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/hook.php on line 70
-[05-Oct-2023 08:49:26 Asia/Tehran] PHP Warning:  Undefined array key 33 in /home/arambaar/public_html/cancle.php on line 17
-[05-Oct-2023 08:54:57 Asia/Tehran] PHP Warning:  Undefined array key 33 in /home/arambaar/public_html/cancle.php on line 17
-[05-Oct-2023 09:09:12 Asia/Tehran] PHP Warning:  Undefined array key 33 in /home/arambaar/public_html/cancle.php on line 17
-[05-Oct-2023 09:09:19 Asia/Tehran] PHP Warning:  Undefined array key 33 in /home/arambaar/public_html/cancle.php on line 17
-[05-Oct-2023 09:10:02 Asia/Tehran] PHP Warning:  Undefined array key 33 in /home/arambaar/public_html/cancle.php on line 17
-[05-Oct-2023 09:10:02 Asia/Tehran] PHP Warning:  Undefined array key 33 in /home/arambaar/public_html/cancle.php on line 17
-[12-Oct-2023 08:25:04 Asia/Tehran] PHP Warning:  Undefined variable $json in /home/arambaar/public_html/main.php on line 32
-[12-Oct-2023 08:25:04 Asia/Tehran] PHP Fatal error:  Uncaught TypeError: Only arrays and Traversables can be unpacked in /home/arambaar/public_html/main.php:33
-Stack trace:
-#0 {main}
-  thrown in /home/arambaar/public_html/main.php on line 33
-[15-Oct-2023 20:47:23 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/hook.php on line 70
-[15-Oct-2023 20:47:23 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/hook.php on line 70
-[15-Oct-2023 20:52:47 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/hook.php on line 70
-[15-Oct-2023 20:52:47 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/hook.php on line 70
-[17-Oct-2023 12:16:20 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/hook.php on line 72
-[17-Oct-2023 12:16:20 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/hook.php on line 72
+[22-Oct-2023 19:25:32 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/newpuck.php on line 93
+[22-Oct-2023 19:25:32 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/newpuck.php on line 93
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 29
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 30
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 31
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 32
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 33
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 34
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 35
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 36
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 37
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 38
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 39
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 40
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 41
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 42
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 43
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/sendDriverPhone.php on line 72
+[22-Oct-2023 19:27:42 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/sendDriverPhone.php on line 72
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 29
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 30
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 31
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 32
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 33
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 34
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 35
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 36
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 37
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 38
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 39
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 40
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 41
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 42
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 43
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/sendDriverPhone.php on line 96
+[22-Oct-2023 19:33:25 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/sendDriverPhone.php on line 96
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 28
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 29
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 30
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 31
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 32
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 33
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 34
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 35
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 36
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 37
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 38
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 39
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 40
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 41
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 42
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/sendDriverPhone.php on line 93
+[22-Oct-2023 19:35:11 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/sendDriverPhone.php on line 93
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 28
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 29
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 30
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 31
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 32
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 33
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 34
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 35
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 36
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 37
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 38
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 39
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 40
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 41
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendDriverPhone.php on line 42
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/sendDriverPhone.php on line 93
+[22-Oct-2023 19:35:49 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/sendDriverPhone.php on line 93
+[22-Oct-2023 19:49:09 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/sendDriverPhone.php on line 93
+[22-Oct-2023 19:49:09 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/sendDriverPhone.php on line 93
+[22-Oct-2023 19:49:18 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/newpuck.php on line 93
+[22-Oct-2023 19:49:18 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/newpuck.php on line 93
+[24-Oct-2023 12:12:40 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/newpuck.php on line 93
+[24-Oct-2023 12:12:40 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/newpuck.php on line 93
+[24-Oct-2023 12:12:48 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/sendDriverPhone.php on line 93
+[24-Oct-2023 12:12:48 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/sendDriverPhone.php on line 93
+[24-Oct-2023 14:08:38 Asia/Tehran] PHP Warning:  Undefined array key 2 in /home/arambaar/public_html/newpuck.php on line 93
+[24-Oct-2023 14:08:38 Asia/Tehran] PHP Warning:  Undefined array key 1 in /home/arambaar/public_html/newpuck.php on line 93
+[24-Oct-2023 14:52:47 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 10
+[24-Oct-2023 14:52:47 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 11
+[24-Oct-2023 14:52:47 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 12
+[24-Oct-2023 14:52:47 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 13
+[24-Oct-2023 14:52:47 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 14
+[24-Oct-2023 14:52:47 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 15
+[24-Oct-2023 14:52:47 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 16
+[24-Oct-2023 14:52:47 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 17
+[24-Oct-2023 14:52:47 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 18
+[24-Oct-2023 14:52:47 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 19
+[24-Oct-2023 14:52:47 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 20
+[24-Oct-2023 14:52:47 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 21
+[24-Oct-2023 14:52:47 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 22
+[24-Oct-2023 14:52:47 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 23
+[24-Oct-2023 14:53:02 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 10
+[24-Oct-2023 14:53:02 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 11
+[24-Oct-2023 14:53:02 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 12
+[24-Oct-2023 14:53:02 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 13
+[24-Oct-2023 14:53:02 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 14
+[24-Oct-2023 14:53:02 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 15
+[24-Oct-2023 14:53:02 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 16
+[24-Oct-2023 14:53:02 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 17
+[24-Oct-2023 14:53:02 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 18
+[24-Oct-2023 14:53:02 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 19
+[24-Oct-2023 14:53:02 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 20
+[24-Oct-2023 14:53:02 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 21
+[24-Oct-2023 14:53:02 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 22
+[24-Oct-2023 14:53:02 Asia/Tehran] PHP Warning:  Trying to access array offset on value of type null in /home/arambaar/public_html/sendOwnerPhone.php on line 23
