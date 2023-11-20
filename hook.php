@@ -1,5 +1,5 @@
 
-<?php 
+<?php
 date_default_timezone_set("Asia/Tehran");
 require __DIR__.'/vendor/autoload.php';
 use Telegram\Bot\Api;
@@ -42,9 +42,9 @@ $data=[
     'carTracker'=>$input[20],//ماشین گیر
     'companyphone'=>$input[25]//شماره هماهنگی شرکت 
 
-    ];
-     $characters = preg_split("/ع|ایران/", $data['dpluck']);
- // بارگذاری تصویر
+];
+$characters = preg_split("/ع|ایران/", $data['dpluck']);
+// بارگذاری تصویر
 $image = Image::make('/home/arambaar/public_html/image.jpg');
 
 
@@ -52,60 +52,60 @@ $image = Image::make('/home/arambaar/public_html/image.jpg');
 $image->text(renderText($data['dest']), 800, 40, function($font) {
     $font->file('/home/arambaar/public_html/IRANSansWeb.ttf');
     $font->size(35);
-    $font->color('#30336b');
+    $font->color('#da0037');
     $font->align('center');
     $font->valign('top');
 });
 
 // 2th text 
 $image->text(renderText($data['dname']), 735, 120, function($font) {
-    $font->file('/home/arambaar/public_html/IRANSansWeb.ttf');
+    $font->file('/home/arambaar/public_html/KalamehFaNum-Medium.ttf');
     $font->size(35);
-    $font->color('#30336b');
+    $font->color('#252525');
     $font->align('center');
     $font->valign('top');
 });
 
 
 
-// 3th text 
+// 3th text
 $image->text($characters[2].renderText(" ایران").$characters[1].renderText("ع").$characters[0], 735, 215, function($font) {
-    $font->file('/home/arambaar/public_html/IRANSansWeb(FaNum).ttf');
+    $font->file('/home/arambaar/public_html/KalamehFaNum-Medium.ttf');
     $font->size(35);
-    $font->color('#30336b');
+    $font->color('#252525');
     $font->align('center');
     $font->valign('top');
 });
 
 
 
-// 4th text 
+// 4th text
 $image->text(renderText($data['company']), 710, 300, function($font) {
-    $font->file('/home/arambaar/public_html/IRANSansWeb(FaNum).ttf');
+    $font->file('/home/arambaar/public_html/KalamehFaNum-Medium.ttf');
     $font->size(35);
-    $font->color('#30336b');
+    $font->color('#252525');
     $font->align('center');
     $font->valign('top');
 });
 
 
 
-// 4th text 
+// 4th text
 $image->text(($data['dnational']), 730, 400, function($font) {
-    $font->file('/home/arambaar/public_html/IRANSansWeb(FaNum).ttf');
+    $font->file('/home/arambaar/public_html/KalamehFaNum-Medium.ttf');
     $font->size(35);
-    $font->color('#30336b');
+    $font->color('#252525');
     $font->align('center');
     $font->valign('top');
 });
 
 
 
-//tonaj 
+//tonaj
 $image->text(($data['dtonaj']), 810, 480, function($font) {
-    $font->file('/home/arambaar/public_html/IRANSansWeb(FaNum).ttf');
+    $font->file('/home/arambaar/public_html/KalamehFaNum-Medium.ttf');
     $font->size(35);
-    $font->color('#30336b');
+    $font->color('#252525');
     $font->align('center');
     $font->valign('top');
 });
@@ -116,13 +116,13 @@ $image->save('new.jpg');
 //------------------------------------------------------------------------
 $telegram = new Api('6479029477:AAFFAmZrEpsgJHic785dogmHIsQ4VgknqIE');
 $caption="✈️ مقصد :".$data['dest']."\n"."⏲ تناژ :".$data['dtonaj']."\n"." 🚛نام راننده : ".$data['dname']."\n"." ✅ شماره پلاک :".$data['dpluck']."\n"
-." 🏦 هوشمند :".$data['dsmart']."\n"." 👁‍🗨 کد ملی  : ".$data['dnational'] ."\n"."👤ماشین گیر:".$data['carTracker']."\n"."⏰زمان:".$time."\n";
+    ." 🏦 هوشمند :".$data['dsmart']."\n"." 👁‍🗨 کد ملی  : ".$data['dnational'] ."\n"."👤ماشین گیر:".$data['carTracker']."\n"."⏰زمان:".$time."\n";
 $params = [
-          'chat_id'=> '-1001714934522',
-          'photo'=> new InputFile("new.jpg"),
-          'caption'=> $caption
-         ];
-         
+    'chat_id'=> '-1001714934522',
+    'photo'=> new InputFile("new.jpg"),
+    'caption'=> $caption
+];
+
 $response = $telegram->sendPhoto($params);
 //---------------------------------------------------------------------
 $eita=new Eita("bot193441:582790a7-a51d-4543-a673-81d1dddebfc4");
@@ -134,17 +134,17 @@ $eitaParams=[
 ];
 $eitaRes=$eita->sendPhoto($eitaParams);
 //------------------------------------------------------------------------
-try{  
+try{
     $message = "اعلام پلاک جدید : \n".$caption;
-    $lineNumber = 3000859975; 
+    $lineNumber = 3000859975;
     $receptor = "09133506955";
     $api = new \Ghasedak\GhasedakApi('24e1baaec4e55a766478d8131a1bd5400f97d7eb03cd95954eb1ec177cdec853');
-    $api->SendSimple($receptor,$message,$lineNumber);  
-   }
-   catch(\Ghasedak\Exceptions\ApiException $e){  
-    echo $e->errorMessage();  
-   }  
-   catch(\Ghasedak\Exceptions\HttpException $e){  
-    echo $e->errorMessage();  
-   }  
+    $api->SendSimple($receptor,$message,$lineNumber);
+}
+catch(\Ghasedak\Exceptions\ApiException $e){
+    echo $e->errorMessage();
+}
+catch(\Ghasedak\Exceptions\HttpException $e){
+    echo $e->errorMessage();
+}
 
